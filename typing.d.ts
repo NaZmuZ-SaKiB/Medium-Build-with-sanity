@@ -20,6 +20,7 @@ export interface Post {
 }
 
 export interface Comment {
+  _id: string;
   approved: boolean;
   comment: string;
   name: string;
